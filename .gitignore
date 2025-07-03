@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Credentials
+credentials.json
+token.json
+
+# Data outputs
+*.csv
+filters/
