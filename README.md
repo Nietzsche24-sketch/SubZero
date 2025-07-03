@@ -1,16 +1,16 @@
 # SubZero
 
-**SubZero** automatically scans your Gmail for “#DELETE” emails (and deletes them)  
-and builds a CSV of recurring‐merchant charge counts every 30 days.
+SubZero is a lightweight Python tool that scans your Gmail inbox, identifies recurring subscription charges, and automatically drafts cancellation emails or Gmail filters. Inspired by tools like Rocket Money — but fully open-source and locally controlled.
 
-## Usage
+## ✅ Features
 
-Set these secrets in GitHub (see below):  
-- EMAIL_ACCOUNT  
-- APP_PASSWORD  
+- Scans Gmail for recurring charges (via Gmail API)
+- Categorizes merchants by frequency and total spend
+- Generates:
+  - 📨 Gmail draft emails to cancel subscriptions
+  - 🔎 Gmail filter rules for automatic cleanup
+- Tracks and exports:
+  - Recurring merchant CSVs
+  - Receipts & detailed breakdowns
 
-Two workflows run:
-
-- **imap_scanner.py**: looks for `#DELETE` in subjects & nukes those messages  
-- **recurring_scanner.py**: scans the last 30 days for billing keywords, outputs `recurring_merchants.csv`
-
+## 🧱 Project Structure
