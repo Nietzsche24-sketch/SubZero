@@ -1,0 +1,14 @@
+{
+  "service": "support@service.com",
+  "support": "support@support.com",
+  "noreply": "noreply@somevendor.com",
+  "azure": "billing@microsoft.com",
+  "help": "help@company.com",
+  "automatic-notifications+recovery": "no-reply@notifications.com",
+  "ishoukry": "contact@ishoukry.com",
+  "bg": "support@bg.com",
+  "nadia": "nadia@example.com",
+  "donotreply": "donotreply@example.com",
+  "arobb": "arobb@somewhere.com",
+  "notifications": "notifications@example.com"
+}

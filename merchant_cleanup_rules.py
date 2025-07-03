@@ -1,0 +1,17 @@
+cleanup_rules = {
+    r"(?i)^service$": "Service",
+    r"(?i)^support$": "Support",
+    r"(?i)^noreply.*": "Noreply",
+    r"(?i)^notifications.*": "Notifications",
+    r"(?i)^donotreply.*": "Donotreply",
+    r"(?i)^billing.*": "Billing",
+    r"(?i)^invoice.*": "Invoice",
+    r"(?i)^receipts.*": "Generic Receipt",
+    r"(?i)^automatic.*": "Automatic-Notifications",
+    r"(?i)^help$": "Help",
+    r"(?i)^ishoukry$": "Tshoukry",
+    r"(?i)^nadia$": "Nadia",
+    r"(?i)^arobb$": "Arobb",
+    r"(?i)^bg$": "Bg",
+    r"(?i)^azure$": "Azure",
+}
