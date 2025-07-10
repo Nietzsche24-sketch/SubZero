@@ -18,3 +18,4 @@ token.json
 # Data outputs
 *.csv
 filters/
+token.json
